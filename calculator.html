@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9cc702baed.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title> Digital Calculator</title>
+</head>
+
+<body>
+    <main class="flex justify-center  ">
+        <section class=" bg-blue-300 p-5 mt-8 rounded-md w-1/3 h-1/3  ">
+            <div class="bg-yellow-300 ">
+                <h3 class="text-3xl font-bold text-red-500	 text-center p-5 mb-5 ">Digital Calculator <br> <small
+                        class="text-white text-xl font-semibold rounded-md px-2 ">create by
+                        joyonto</small>
+                </h3>
+            </div>
+            <div class="p-2">
+                <input id="inputAnsField" class="w-full p-2 mb-5 px-5 text-end rounded-md" type="text"
+                    placeholder="Total Answer">
+                <input id="inputField" class="w-full p-2 px-5 rounded-md text-end" type="text"
+                    placeholder="Enter Number">
+                <div class=" grid grid-cols-6 gap-4 3/4 ">
+                    <button id="number-zero"
+                        class="bg-green-300 hover:bg-yellow-400 font-semibold  p-3 rounded-md mt-5 text-4xl ">0</button>
+                    <button id="number-one"
+                        class="bg-green-300  font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl ">1</button>
+                    <button id="number-two"
+                        class="bg-green-300  font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl ">2</button>
+                    <button id="number-three"
+                        class="bg-green-300  hover:bg-yellow-400 font-semibold p-3 rounded-md mt-5 text-4xl ">3</button>
+                    <button id="minus-button"
+                        class="bg-green-300  hover:bg-yellow-400 font-semibold p-3 rounded-md mt-5 text-4xl">-</button>
+                    <button id="gun-button"
+                        class="bg-green-300  font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl ">*</button>
+                    <button id="number-four"
+                        class="bg-green-300  hover:bg-yellow-400 font-semibold p-3 rounded-md mt-5 text-4xl ">4</button>
+                    <button id="number-five"
+                        class="bg-green-300 hover:bg-yellow-400  font-semibold p-3 rounded-md mt-5 text-4xl ">5</button>
+                    <button id="number-six"
+                        class="bg-green-300  font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl ">6</button>
+                    <button id="number-seven"
+                        class="bg-green-300 hover:bg-yellow-400  font-semibold p-3 rounded-md mt-5 text-4xl ">7</button>
+                    <button id="vag-button"
+                        class="bg-green-300  font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl">/</button>
+                    <button id="plus-button"
+                        class="bg-green-300  font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl">+</button>
+                    <button id="number-eight"
+                        class="bg-green-300  hover:bg-yellow-400 font-semibold p-3 rounded-md mt-5 text-4xl ">8</button>
+                    <button id="number-nine"
+                        class="bg-green-300 hover:bg-yellow-400  font-semibold p-3 rounded-md mt-5 text-4xl ">9</button>
+                    <button id="number-dot"
+                        class="bg-green-300  font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl ">.</button>
+                    <button id="number-paar"
+                        class="bg-green-300 font-semibold p-3 hover:bg-yellow-400 rounded-md mt-5 text-4xl ">%</button>
+                    <button id="clear-button"
+                        class="bg-green-300 hover:bg-yellow-400 font-semibold p-3 rounded-md mt-5 text-4xl ">C</button>
+                    <button id="clear-all"
+                        class="bg-green-300  font-semibold hover:bg-yellow-400 p-3 rounded-md mt-5 text-3xl ">AC</button>
+                </div>
+                <button id="equal-button"
+                    class="bg-yellow-400 font-semibold hover:bg-yellow-400 rounded-md mt-5 w-full text-4xl">=</button>
+            </div>
+        </section>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
